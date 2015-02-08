@@ -18,7 +18,8 @@
       End|\
       Reference|\
       Ref|\
-      ScriptName|Scn\
+      ScriptName|Scn|\
+      String_Var\
     )\\b'
     'name': 'keyword'
   }
@@ -67,7 +68,11 @@
     'name': 'constant.numeric'
   }
   {
-    'match': '(?i)\\b(\
+    'match': '(?i)"(array|map|stringmap)"'
+    'name': 'constant.string'
+  }
+  {
+    'match': '(?i)[_]?\\b(\
       GameMode|\
       MenuMode|\
       OnActivate|\
