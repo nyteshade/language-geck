@@ -693,7 +693,7 @@
       Con_SetGameSetting|\
       Con_SetINISetting|\
       Con_SetVel|\
-      DebugPrint|\
+      DebugPrint|DBPrintC|\
       DisableControl|\
       DisableKey|\
       EnableControl|\
@@ -833,7 +833,7 @@
       MenuTapKey|\
       Pow|\
       PrintActiveTile|\
-      PrintToConsole|\
+      PrintToConsole|PrintC|\
       ReleaseKey|\
       RemoveScript|\
       RightShift|\
@@ -1081,7 +1081,7 @@
       NumToHex|\
       PickOneOf|\
       Print|\
-      PrintDebug|\
+      PrintDebug|PrintD|\
       QFromAxisAngle|\
       QFromEuler|\
       QInterpolate|\
