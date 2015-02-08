@@ -13,6 +13,7 @@
       Float|\
       Function|\
       Begin|\
+      If|\
       EndIf|\
       ElseIf|\
       End|\
