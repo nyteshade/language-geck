@@ -72,7 +72,7 @@
     'name': 'constant.string'
   }
   {
-    'match': '(?i)[_]?\\b(\
+    'match': '(?i)\\b[_]?(\
       GameMode|\
       MenuMode|\
       OnActivate|\
