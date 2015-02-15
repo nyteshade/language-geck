@@ -1,0 +1,20 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-workspace': [
+    {
+      label: 'Show GECK Docs',
+      command: 'geck-help:lookup'
+    }
+  ]
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'geck-help'
+      'submenu': [
+        { 'label': 'Show GECK Docs', 'command': 'geck-help:lookup' }
+      ]
+    ]
+  }
+]

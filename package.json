@@ -6,5 +6,10 @@
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
-  }
+  },
+  "dependencies": {
+    "atom-helpers": ">= 1.0.0 < 2.0.0",
+    "web-browser": ">= 1.0.0"
+  },
+  "main": "./lib/geck-help"
 }
