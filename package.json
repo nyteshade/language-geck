@@ -7,8 +7,11 @@
   "engines": {
     "atom": ">0.50.0"
   },
+  "mainStyleSheet": "./styles/index.less",
+  "styleSheets": ["./styles/index.less"],
   "dependencies": {
-    "atom-helpers": ">= 1.0.0 < 2.0.0"
+    "atom-helpers": ">= 1.0.0 < 2.0.0",
+    "isa-lib": "*"
   },
   "main": "./lib/geck-help"
 }

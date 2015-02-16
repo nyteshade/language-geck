@@ -2,7 +2,7 @@
 'context-menu':
   'atom-workspace': [
     {
-      label: 'Show GECK Docs',
+      label: 'See GECK API',
       command: 'geck-help:lookup'
     }
   ]
@@ -11,9 +11,9 @@
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'geck-help'
+      'label': 'GECK'
       'submenu': [
-        { 'label': 'Show GECK Docs', 'command': 'geck-help:lookup' }
+        { 'label': 'See GECK API', 'command': 'geck-help:lookup' }
       ]
     ]
   }

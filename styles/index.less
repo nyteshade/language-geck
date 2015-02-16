@@ -1,0 +1,34 @@
+@import "ui-variables";
+
+@fallout3: #D0EB55;
+@newvegas: #E6832B;
+
+atom-text-editor::shadow {
+  .geck.blocktype {
+    color: lighten(#96CBFE, 10%) !important;
+  }
+
+  .geck-keyword {
+    color: @text-color-info;
+  }
+
+  .geck.baseFns {
+    color: darken(@fallout3, 10%);
+  }
+
+  .geck.foseFns {
+    color: darken(@fallout3, 20%);
+  }
+
+  .geck.vegasFns {
+    color: @newvegas;
+  }
+
+  .geck.nvseFns {
+    color: darken(@newvegas, 10%);
+  }
+
+  .geck.nxFns {
+    color: darken(@newvegas, 20%);
+  }
+}
