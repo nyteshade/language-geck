@@ -1,6 +1,6 @@
 {
   "name": "language-geck",
-  "version": "0.2.8",
+  "version": "0.3.0",
   "description": "Syntax highlighting for Fallout 3/NV scripting",
   "repository": "https://github.com/nyteshade/language-geck.git",
   "license": "MIT",
