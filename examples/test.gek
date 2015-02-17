@@ -1,0 +1,21 @@
+ScriptName Test
+
+Int Age
+Float Cash
+String_Var name
+Reference Person
+
+Begin GameMode
+	GetHairColor
+End
+
+Begin SayToDone
+	Set Age to 5
+	Let Age := 6
+	Player.AddItem
+	Abs                 ; GECK
+	AddSpellNS          ; FOSE
+	AddReputation       ; VEGAS
+	ActorValueToString  ; NVSE
+	NX_ClrEVFl          ; NX
+End

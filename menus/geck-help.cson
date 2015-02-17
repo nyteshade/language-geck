@@ -2,18 +2,23 @@
 'context-menu':
   'atom-workspace': [
     {
-      label: 'See GECK API',
-      command: 'geck-help:lookup'
+      label:'See GECK API',
+      command:'language-geck:lookup'
     }
   ]
 
-'menu': [
+menu: [
   {
-    'label': 'Packages'
-    'submenu': [
-      'label': 'GECK'
-      'submenu': [
-        { 'label': 'See GECK API', 'command': 'geck-help:lookup' }
+    label:'Packages'
+    submenu: [
+      label:'GECK'
+      submenu: [
+        { label:'See GECK API', command:'language-geck:lookup' },
+        { type:'separator' }
+        { label:'Toggle FOSE Functions', command:'language-geck:toggleFOSE' }
+        { label:'Toggle Vegas Functions', command:'language-geck:toggleVegas' }
+        { label:'Toggle NVSE Functions', command:'language-geck:toggleNVSE' }
+        { label:'Toggle NX Functions', command:'language-geck:toggleNX' }
       ]
     ]
   }

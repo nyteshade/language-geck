@@ -13,5 +13,5 @@
     "atom-helpers": ">= 1.0.0 < 2.0.0",
     "isa-lib": "*"
   },
-  "main": "./lib/geck-help"
+  "main": "./lib/language-geck-main"
 }

@@ -6,6 +6,10 @@
 'firstLineMatch': "(?i)^\\s*(scn|scriptname)"
 'patterns': [
   {
+    'match': '(?i)\\bPlayer\\b'
+    'name': 'keywork.geck-keyword.player'
+  }
+  {
     'match': '(?i)\\b(set)\\b(.*?)\\b(to)\\b'
     'captures':
       '1': 'name': 'keyword'

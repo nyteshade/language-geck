@@ -4,8 +4,12 @@
 @newvegas: #E6832B;
 
 atom-text-editor::shadow {
+  .geck-keyword.player {
+    font-weight: bold;
+  }
+
   .geck.blocktype {
-    color: lighten(#96CBFE, 10%) !important;
+    color: darken(@text-color-info, 20%);
   }
 
   .geck-keyword {
@@ -13,11 +17,11 @@ atom-text-editor::shadow {
   }
 
   .geck.baseFns {
-    color: darken(@fallout3, 10%);
+    color: darken(@fallout3, 20%);
   }
 
   .geck.foseFns {
-    color: darken(@fallout3, 20%);
+    color: darken(@fallout3, 30%);
   }
 
   .geck.vegasFns {
