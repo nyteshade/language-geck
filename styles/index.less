@@ -3,36 +3,36 @@
 @fallout3: #D0EB55;
 @newvegas: #E6832B;
 
-atom-text-editor::shadow {
-  .geck-keyword.player {
+atom-text-editor.editor {
+  .syntax--geck-keyword.syntax--player {
     font-weight: bold;
   }
 
-  .geck.blocktype {
+  .syntax--geck.blocktype {
     color: darken(@text-color-info, 20%);
   }
 
-  .geck-keyword {
+  .syntax--geck-keyword {
     color: @text-color-info;
   }
 
-  .geck.baseFns {
+  .syntax--geck.baseFns {
     color: darken(@fallout3, 20%);
   }
 
-  .geck.foseFns {
+  .syntax--geck.foseFns {
     color: darken(@fallout3, 30%);
   }
 
-  .geck.vegasFns {
+  .syntax--geck.vegasFns {
     color: @newvegas;
   }
 
-  .geck.nvseFns {
+  .syntax--geck.nvseFns {
     color: darken(@newvegas, 10%);
   }
 
-  .geck.nxFns {
+  .syntax--geck.nxFns {
     color: darken(@newvegas, 20%);
   }
 }
