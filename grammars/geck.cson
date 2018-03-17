@@ -1,6 +1,7 @@
 'fileTypes': [
   'gek'
   'geck'
+  'scn'
 ]
 'name': 'Geck'
 'firstLineMatch': "(?i)^\\s*(scn|scriptname)"

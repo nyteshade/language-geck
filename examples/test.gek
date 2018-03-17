@@ -18,4 +18,6 @@ Begin SayToDone
 	AddReputation       ; VEGAS
 	ActorValueToString  ; NVSE
 	NX_ClrEVFl          ; NX
+	GetModName          ; Lutana
+	Player.AddItemAlt   ; JIP
 End
